@@ -1,0 +1,3 @@
+# Installs ffmpeg in the Railway build so /api/mux can run.
+[phases.setup]
+aptPkgs = ["ffmpeg"]
